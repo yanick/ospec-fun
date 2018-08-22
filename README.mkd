@@ -1,0 +1,17 @@
+
+## How to run ospec files with modern JS 
+
+### Way 1
+
+    $ ./node_modules/.bin/babel-node src/foo.test.js 
+
+### Way 2
+
+(in this case the `o.run()` can be removed from the test file.
+
+    $ ./node_modules/.bin/babel src/* -d lib
+    $ ./node_modules/.bin/ospec lib/foo.test.j 
+
+
+
+

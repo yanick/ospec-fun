@@ -1,0 +1,20 @@
+{
+  "name": "prather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yanick Champoux <yanick@babyl.ca> (http://techblog.babyl.ca)",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-rc.2",
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/node": "^7.0.0-rc.2",
+    "babel-node": "^6.5.3",
+    "babel-preset-env": "^1.7.0",
+    "ospec": "^3.0.1"
+  }
+}
